@@ -12,5 +12,5 @@ MONGO_DB_URI :str = os.environ.get(
     "MONGO_DB_URI",
     "",
 )
-OWNER_ID :int= os.environ.get("OWNER_ID", 6728038801)
+OWNER_ID :int= os.environ.get("OWNER_ID", 678038801)
 
