@@ -61,7 +61,7 @@ MAIN = [
     [
         IKB(text="sᴏᴜʀᴄᴇ ", callback_data="HELP_source"),
         
-        IKB(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=OWNER_ID),
+        IKB(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/ibuttu"),
 ]
 ]
 
@@ -101,7 +101,7 @@ HELP_BACK = [
 
 SOURCE_BUTTONS = IKM(
     [
-        [IKB("sᴏᴜʀᴄᴇ", callback_data="HELP_hurr")],
+        [IKB("sᴏᴜʀᴄᴇ", url=f"https://t.me/{SUPPORT_GRP}")],
         [
             IKB(" ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"),
             IKB(text="ʙᴀᴄᴋ ", callback_data="HELP_BACK")
