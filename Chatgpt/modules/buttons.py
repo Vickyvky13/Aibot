@@ -86,7 +86,7 @@ gpt_button = [
             url=f"https://t.me/{Mukesh.username}?startgroup=true",
         ),
 
-        IKB("ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=OWNER_ID)
+        IKB("ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/ibuttu")
     ],
 ]
 
