@@ -24,6 +24,6 @@ async def ping(_, message):
     ms = str(round((end - start) * 1000, 3)) + " ᴍs"
     await message.reply_photo(
         photo=START_IMG,
-        caption=f"ʜᴇʏ ʙᴀʙʏ!!\n{Mukesh.mention} ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ {ms} \n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ  @mr_sukkun**",
+        caption=f"ʜᴇʏ ʙᴀʙʏ!!\n{Mukesh.mention} ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ {ms} \n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ  @solotreee**",
         reply_markup=IKM(PNG_BTN),
     )
