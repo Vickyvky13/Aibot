@@ -8,7 +8,7 @@ from ..modules.buttons import *
 
 
 @Mukesh.on_message(
-    filters.command(["source", "repo"], prefixes=["+", ".", "/", "-", "?", "$"])
+    filters.command(["sourceoo", "repoooo"], prefixes=["+", ".", "/", "-", "?", "$"])
 )
 async def source(_, m):
     await m.reply_photo(
